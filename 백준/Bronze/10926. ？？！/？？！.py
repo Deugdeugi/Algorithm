@@ -1,2 +1,4 @@
-id = input()
-print(id + '??!')
+import sys
+input = sys.stdin.readline
+s = input().strip()
+print(s + '??!')
