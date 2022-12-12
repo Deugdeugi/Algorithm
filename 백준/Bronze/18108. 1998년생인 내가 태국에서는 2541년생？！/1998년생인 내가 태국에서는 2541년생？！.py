@@ -1,2 +1,1 @@
-n = int(input())
-print(n-543)
+print(int(input()) - 543)
