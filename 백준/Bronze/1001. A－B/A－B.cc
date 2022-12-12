@@ -1,14 +1,8 @@
-#include <iostream>
-
-using namespace std ;
+#include <cstdio>
 
 int main()
 {
-    int num1 = 0 ;
-    int num2 = 0 ;
-    
-    cin >> num1 >> num2 ; 
-    cout << num1 - num2 ;
-    
-    return 0 ;
+    int a = 0, b = 0;
+    scanf("%d %d", &a, &b);
+    printf("%d", a - b);
 }
