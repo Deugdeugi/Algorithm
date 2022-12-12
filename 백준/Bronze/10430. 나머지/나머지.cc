@@ -1,19 +1,9 @@
-#include <iostream>
-
-using namespace std ;
+#include <cstdio>
 
 int main()
 {
-    int A = 0 ;
-    int B = 0 ;
-    int C = 0 ;
-
-    cin >> A >> B >> C ;
-
-    cout << (A+B)%C << endl ;
-    cout << (A%C + B%C)%C << endl ;
-    cout << (A*B)%C << endl ;
-    cout << (A%C * B%C)%C << endl ;
-
-    return 0 ;
+    int A = 0, B = 0, C = 0;
+    scanf("%d %d %d", &A, &B, &C);
+    printf("%d\n%d\n%d\n%d", (A+B)%C, ((A%C)+(B%C))%C, (A*B)%C, ((A%C)*(B%C))%C);
+    return 0;
 }
