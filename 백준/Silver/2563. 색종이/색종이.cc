@@ -1,25 +1,6 @@
 #include <cstdio>
 #include <memory.h>
 
-int blank(int x, int y)
-{
-
-    if ( ( (x % 3) == 1 ) && ( ( y % 3 ) == 1 ) )
-    {
-        return 1;
-    }
-    else if ( x == 0 || y == 0 )
-    {
-        return 0;
-    }
-    else
-    {
-        x = x / 3;
-        y = y / 3;
-        return blank(x, y);
-    }
-}
-
 int main(void) {
     int arr[100][100];
     memset(arr, 0, sizeof(arr));
