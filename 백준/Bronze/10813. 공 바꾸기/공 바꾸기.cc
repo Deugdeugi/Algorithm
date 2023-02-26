@@ -13,7 +13,7 @@ int main()
     int arr[101] = { 0, };
     int a = 0, b = 0;
 
-    for ( i == 1 ; i <= 100 ; i++ )
+    for ( i = 1 ; i <= 100 ; i++ )
     {
         arr[i] = i;
     }
