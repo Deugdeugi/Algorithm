@@ -5,12 +5,12 @@ int main()
     int N = 0;
     scanf("%d",&N);
     
-    while ( N != 4 ) {
+    while ( N != 0 ) {
         fputs("long ", stdout);
         N -= 4;
     }
 
-    fputs("long int", stdout);
+    fputs("int", stdout);
 
     return 0;
 }
